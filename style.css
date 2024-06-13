@@ -58,7 +58,7 @@ body {
     align-self: flex-end;
 
 }
-@media (max-width: 933px) {
+@media (min-width:0px )and (max-width: 933px) {
     #right-nav>button{
         display: none;
     }
