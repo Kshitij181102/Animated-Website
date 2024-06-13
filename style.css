@@ -38,8 +38,8 @@ body {
 }
 #page1>nav{
     display: flex;
-    align-items:last baseline;
-    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: flex-end;
     padding: 0px 30px;
     position: absolute;
     height: 10vh;
@@ -55,7 +55,8 @@ body {
     font-family: a;
     font-size: 15px;
     position: relative;
-    left: 1080px;
+    align-self: flex-end;
+
 }
 .bottom-page1{
     position: absolute;
